@@ -23,4 +23,5 @@ app.listen(PORT, () => {
 require("./routes/auth.routes")(app);
 require("./routes/user.routes")(app);
 require("./routes/stars.routes")(app);
+require("./routes/favorite.routes")(app);
 // set port, listen for requests
